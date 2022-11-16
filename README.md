@@ -29,3 +29,28 @@ Installation Guide:
 ***Note: After executing the Create_database.txt in psql, connect to the created database and proceed with execution of other files***
 
 3.Finally Run the code!
+
+Screenshot:
+
+Login
+
+![Login](https://user-images.githubusercontent.com/93753285/202224324-2d5c0872-57a4-4335-99c8-a913f06165cf.jpg)
+
+Home
+
+![Home](https://user-images.githubusercontent.com/93753285/202224381-44563465-5d8c-4fb9-9e53-d35702d4c348.jpg)
+
+New Record Page
+
+![New Record Page](https://user-images.githubusercontent.com/93753285/202224472-63d66f1f-c8db-4ccc-a090-7b3fe73f79d1.jpg)
+
+Update Record Page
+
+![Update Record Page](https://user-images.githubusercontent.com/93753285/202224604-3353ed86-c017-4f11-893f-d7d844a07496.jpg)
+
+Insert Multiple Records(by uploading an excel file)
+
+![Insert Multiple Records](https://user-images.githubusercontent.com/93753285/202224725-a85658d2-d613-46e6-99ac-c920a866276a.jpg)
+
+
+
