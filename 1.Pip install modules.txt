@@ -1,0 +1,9 @@
+***If python is installed in your System, run the following commands one by one in the cmd***
+
+pip install pandas
+pip install tkinter
+pip install tkcalendar
+pip install datetime
+pip install psycopg2
+pip install os
+pip install sqlalchemy

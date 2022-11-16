@@ -1,0 +1,26 @@
+-- Table: public.purchase_details_tbl
+
+-- DROP TABLE IF EXISTS public.purchase_details_tbl;
+
+CREATE TABLE IF NOT EXISTS public.purchase_details_tbl
+(
+    indent_no character varying COLLATE pg_catalog."default" NOT NULL,
+    date_raised date,
+    item_descrp character varying COLLATE pg_catalog."default",
+    division character varying COLLATE pg_catalog."default",
+    indentor_name character varying COLLATE pg_catalog."default",
+    delivery_date date,
+    mode_of_procurement character varying COLLATE pg_catalog."default",
+    specs bytea,
+    amount_estimate numeric(15,2),
+    status character varying COLLATE pg_catalog."default",
+    actual_amount numeric(15,2),
+    additional_info text COLLATE pg_catalog."default",
+    extension character varying COLLATE pg_catalog."default",
+    CONSTRAINT purchase_details_tbl_pkey PRIMARY KEY (indent_no)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.purchase_details_tbl
+    OWNER to postgres;
