@@ -6,12 +6,14 @@ Inventory Management System
 Introduction :
 Every company wants a computerised system where they can insert, update, search and delete
 records of purchase orders placed by various divisions in their company.
+
 The solution was to build a user interface using python and combining it with
 postgresql for the database part.
 
 Steps of execution:
 
 Requirements:
+
 1.Python
 2.PostgreSQL --version 14 or above
 ***Note: While Installing PostgreSQL please set the PASSWORD to "1234" and PORT to "5432"***
